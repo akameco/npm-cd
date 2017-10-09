@@ -3,6 +3,8 @@
 
 > cd npm pkg dir after git clone pkg when it not exist
 
+[![https://gyazo.com/605847c450b8d82926e56b1f4cbb90fe](https://i.gyazo.com/605847c450b8d82926e56b1f4cbb90fe.gif)](https://gyazo.com/605847c450b8d82926e56b1f4cbb90fe)
+
 
 ## Install
 
