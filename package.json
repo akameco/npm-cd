@@ -1,0 +1,35 @@
+{
+  "name": "npm-cd",
+  "version": "0.0.0",
+  "description": "cd npm pkg dir after git clone pkg when it not exist",
+  "license": "MIT",
+  "repository": "akameco/npm-cd",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js' '*.json'",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "files": ["index.js", "cli.js"],
+  "keywords": ["cli-app", "cli", "npm"],
+  "dependencies": {
+    "conf": "^1.1.2",
+    "execa": "^0.8.0",
+    "meow": "^3.7.0",
+    "package-json": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-precure": "^0.8.0",
+    "flow-bin": "^0.56.0",
+    "prettier": "^1.6.1"
+  }
+}
