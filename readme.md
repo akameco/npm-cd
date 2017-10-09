@@ -16,17 +16,18 @@ $ npm install --global npm-cd
 ```
 $ npm-cd --help
 
-  Usage
-    npm-cd [input]
+  cd npm pkg dir after git clone pkg when it not exist
 
-  Options
-    --foo  Lorem ipsum [Default: false]
+  Usage
+     $ npm-cd [package name]
+
+   Options
+   --clear    clear all cache
 
   Examples
-    $ npm-cd
-    unicorns & rainbows
-    $ npm-cd ponies
-    ponies & rainbows
+     $ npm-cd redux
+         exists /Users/akameco/src/github.com/reactjs/redux
+         cd /Users/akameco/src/github.com/reactjs/redux
 ```
 
 
