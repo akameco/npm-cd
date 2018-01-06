@@ -1,6 +1,6 @@
 {
   "name": "npm-cd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cd npm pkg dir after git clone pkg when it not exist",
   "license": "MIT",
   "repository": "akameco/npm-cd",
@@ -19,8 +19,15 @@
     "lint": "eslint .",
     "test": "npm run lint"
   },
-  "files": ["index.js", "cli.js"],
-  "keywords": ["cli-app", "cli", "npm"],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "npm"
+  ],
   "dependencies": {
     "conf": "^1.4.0",
     "execa": "^0.8.0",
