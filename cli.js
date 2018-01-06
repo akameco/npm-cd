@@ -16,9 +16,7 @@ const cli = meow(
         exists /Users/akameco/src/github.com/reactjs/redux
         cd /Users/akameco/src/github.com/reactjs/redux
 `,
-  {
-    boolean: 'clear'
-  }
+  { flags: { clear: { type: 'boolean' } } }
 )
 
 if (cli.flags.clear) {
@@ -27,5 +25,5 @@ if (cli.flags.clear) {
 }
 
 npmCd(cli.input[0]).catch(err => {
-  console.error(err)
+  console.error(err) // eslint-disable-line no-console
 })

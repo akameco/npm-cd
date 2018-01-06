@@ -30,8 +30,8 @@ module.exports = (pkg /* : string */) => {
   const repoPromise = repo ? Promise.resolve(repo) : getRepoUrl(pkg)
 
   return repoPromise
-    .then(repo => {
-      conf.set(pkg, repo)
+    .then(r => {
+      conf.set(pkg, r)
       return repo
     })
     .then(repoUrl => runGhq(repoUrl).then(() => repoUrl))
