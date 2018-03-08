@@ -38,7 +38,7 @@
     "all-contributors-cli": "^4.10.1",
     "eslint": "^4.14.0",
     "eslint-config-precure": "^2.4.0",
-    "flow-bin": "^0.66.0",
+    "flow-bin": "^0.67.1",
     "prettier": "^1.9.2"
   }
 }
