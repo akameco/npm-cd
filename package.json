@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "conf": "^1.4.0",
-    "execa": "^0.9.0",
+    "execa": "^0.10.0",
     "meow": "^4.0.0",
     "package-json": "^4.0.1"
   },
